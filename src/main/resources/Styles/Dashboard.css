@@ -1,0 +1,110 @@
+.top-form {
+    -fx-background-color: linear-gradient(to bottom, #3998ef,  #91e6fb);
+    -fx-border-width: .4px .4px .2px .4px;
+}
+.close {
+    -fx-background-color: #fff;
+    -fx-border-width: .4px .4px .2px .4px;
+    -fx-cursor: hand;
+}
+.close:hover {
+    -fx-background-color: #f00;
+}
+.minus {
+    -fx-background-color: #fff;
+    -fx-border-width: .4px .4px .2px .4px;
+    -fx-cursor: hand;
+}
+.minus:hover {
+    -fx-background-color: #e9e9e9;
+}
+.nav {
+    -fx-background-color: white;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-width: 1;
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 5;
+}
+.nav-btn {
+    -fx-cursor: hand;
+    -fx-font-family: "Arial";
+    -fx-font-size: 15;
+    -fx-alignment: CENTER_LEFT;
+    -fx-background-color: white;
+    -fx-padding: 25px;
+
+}
+.nav-btn:hover {
+    -fx-background-color: linear-gradient(to bottom, #3998ef,  #5bbffb);
+}
+.bg-center {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+}
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 10, 0, 0, 0);
+}
+
+.btn {
+    -fx-cursor: hand;
+    -fx-background-color: #74c6db;
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+
+}
+
+
+.btn:hover {
+    -fx-background-color:  #3998ef;
+}
+
+.productImportBtn {
+    -fx-background-color: #eee;
+    -fx-text-fill: #3998ef;
+    -fx-font-size: 15;
+    -fx-cursor: hand;
+}
+.productImportBtn:hover {
+    -fx-background-color: #3998ef;
+    -fx-text-fill: white;
+}
+
+.search {
+    -fx-background-color: #f0f0f0;
+    -fx-border-width: 1;
+    -fx-border-color: #5bbffb;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+.search:hover {
+    -fx-background-color: white
+}
+
+.text-field, .combo-box {
+    -fx-background-color: #f0f0f0;
+    -fx-border-width: 1;
+    -fx-border-color: #5bbffb;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-cursor: hand;
+}
+.text-field:hover, .combo-box:hover {
+    -fx-background-color: white
+}
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #5bbffb;
+    -fx-border-radius: 6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #5bbffb;
+    -fx-background-radius: 6;
+}
+.table-view .column-header{
+    -fx-font-size: 15;
+    -fx-background-color: #9aebff;
+}

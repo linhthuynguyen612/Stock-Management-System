@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../Styles/Login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.myp.myproject.Controller.LoginController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="429.0" prefWidth="610.0">
+         <children>
+            <AnchorPane prefHeight="407.0" prefWidth="309.0" styleClass="left-content">
+               <children>
+                  <ImageView fitHeight="168.0" fitWidth="221.0" layoutX="54.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/login.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="36.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="Hệ thống quản lý kho hàng">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="309.0" prefHeight="414.0" prefWidth="299.0" styleClass="right-content">
+               <children>
+                  <Text fill="#12b4ff" layoutX="97.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titleLogin" text="Welcome" />
+                  <Button fx:id="btnLogin" layoutX="58.0" layoutY="232.0" mnemonicParsing="false" onAction="#login" prefHeight="34.0" prefWidth="182.0" styleClass="btnsubmit" text="Đăng nhập" />
+                  <TextField fx:id="username" layoutX="59.0" layoutY="117.0" onAction="#login" prefHeight="40.0" prefWidth="182.0" promptText="Tên đăng nhập" styleClass="btnuser" />
+                  <PasswordField fx:id="password" layoutX="58.0" layoutY="173.0" onAction="#login" prefHeight="40.0" prefWidth="182.0" promptText="Mật khẩu" styleClass="btnpass" />
+                  <FontAwesomeIcon fill="#3caaf4" glyphName="HOME" layoutX="66.0" layoutY="90.0" size="25" text="" />
+                  <Button fx:id="close" layoutX="274.0" layoutY="7.0" mnemonicParsing="false" onAction="#close" prefHeight="8.0" prefWidth="31.0" styleClass="btnclose" text="X" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

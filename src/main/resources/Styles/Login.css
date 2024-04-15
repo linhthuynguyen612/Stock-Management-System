@@ -1,0 +1,65 @@
+.titleLogin {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+
+}
+.left-content {
+    -fx-background-color: linear-gradient(to bottom, #3998ef,  #5bbffb);
+    /*tại sao tôi set background image nhưng không hoạt đông */
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-width: 1;
+    -fx-border-color: #d0d0d0;
+    -fx-border-radius: 5;
+
+}
+
+.right-content {
+    -fx-padding: 10;
+
+
+}
+.btnsubmit {
+    -fx-background-color: linear-gradient(to bottom, #3998ef,  #5bbffb);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+.btnpass,
+.btnuser {
+    -fx-background-color: #bee4d7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+.btnpass:hover, .btnuser:hover {
+    /*-fx-background-color:  #5cb3ad;*/
+    -fx-border-color: #68c4cf ;
+}
+.btnsubmit:hover {
+    -fx-background-color: #3998ef;
+}
+
+.btnclose {
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-cursor: hand;
+    -fx-background-color: white;
+}
+.btnclose:hover {
+    -fx-background-color: red;
+}
+
+.title {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+
+
+
+
